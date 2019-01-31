@@ -12,7 +12,8 @@ import { ResultComponent } from './components/result/result.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'survey', component: SurveyComponent }
+  { path: 'survey', component: SurveyComponent },
+  { path: 'result', component: ResultComponent }
 ];
 
 @NgModule({

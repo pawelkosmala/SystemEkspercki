@@ -1,3 +1,9 @@
-<p>
-  question works!
-</p>
+{{ question.question }}
+
+<ng-container *ngFor="let answer of question.answers, index as i">
+  <label for="answer_{{ i }}">{{ answer }}</label>
+  <input  type="radio" 
+          name="{{ question.question_group_name }}" 
+          value="{{ answer }}"
+          id="answer_{{ i }}">
+</ng-container>
