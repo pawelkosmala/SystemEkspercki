@@ -1,20 +1,27 @@
-<app-progress-bar
-    [activeQuestion]="activeQuestion"
-    [questionsLength]="questionsLength"
-></app-progress-bar>
+<ng-container *ngIf="activeQuestion < questions.length">
+    <app-progress-bar
+        [activeQuestion]="activeQuestion"
+        [questionsLength]="questionsLength"
+    ></app-progress-bar>
 
-<ng-container *ngFor="let question of questions, index as i">
-    <ng-container *ngIf="i === activeQuestion">
-            <app-question
-                [question]="question"
-            ></app-question>
+    <ng-container *ngFor="let question of questions, index as i">
+        <ng-container *ngIf="i === activeQuestion">
+                <app-question
+                    [question]="question"
+                    (nextQuestionEmmiter)="nextQuestion($event)"
+                ></app-question>
+        </ng-container>
     </ng-container>
+
+    <button class="btn btn-primary" routerLink="">
+        Start
+    </button>
+</ng-container>
+<ng-container *ngIf="activeQuestion >= questions.length">
+    <app-result
+        [result]="result"
+    >
+    </app-result>
 </ng-container>
 
-<button class="btn btn-primary" routerLink="">
-    Start
-</button>
       
-<button class="btn btn-primary" (click)="nextQuestion()">
-    Następne pytanie
-</button>

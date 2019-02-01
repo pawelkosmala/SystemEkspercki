@@ -2,8 +2,15 @@
 
 <ng-container *ngFor="let answer of question.answers, index as i">
   <label for="answer_{{ i }}">{{ answer }}</label>
-  <input  type="radio" 
+  <input  [(ngModel)]="chosenAnswer"
+          type="radio" 
           name="{{ question.question_group_name }}" 
           value="{{ answer }}"
           id="answer_{{ i }}">
+</ng-container>
+
+<ng-container>
+  <button class="btn btn-primary" (click)="onNextQuestion()">
+    Następne pytanie
+  </button>
 </ng-container>
