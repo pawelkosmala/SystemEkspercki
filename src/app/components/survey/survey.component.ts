@@ -19,6 +19,7 @@ export class SurveyComponent implements OnInit {
   };
   public questionsLength: any;
   public result: any = [];
+  public resultMessage: any = [];
 
   constructor(public questionsService: QuestionsService,
     public rulesEngineService: RulesEngineService,
@@ -38,7 +39,7 @@ export class SurveyComponent implements OnInit {
       this.rulesEngineService.runTheEngine(this.userAnswers).then((events) => {
         // tslint:disable-next-line:forin
         for (const i in events) {
-          this.result.push(events[i].params.message);
+          this.resultMessage.push(events[i].params.message);
         }
       });
     }
