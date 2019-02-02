@@ -1,16 +1,37 @@
-{{ question.question }}
+<div class="col-6 mx-auto">
+  <div class="row">
+      <div class="col-12 mx-auto mb-2 text-center">
+        <span class="h2">{{ question.question }}</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 mx-auto">
+        <ng-container *ngFor="let answer of question.answers, index as i">
+          <div class="row">
+            <!-- Question text -->
+            <div class="col-6 text-center">
+              <label for="answer_{{ i }}">{{ answer }}</label>
+            </div>
 
-<ng-container *ngFor="let answer of question.answers, index as i">
-  <label for="answer_{{ i }}">{{ answer }}</label>
-  <input  [(ngModel)]="chosenAnswer"
-          type="radio" 
-          name="{{ question.question_group_name }}" 
-          value="{{ answer }}"
-          id="answer_{{ i }}">
-</ng-container>
-
-<ng-container>
-  <button class="btn btn-primary" (click)="onNextQuestion()">
-    Następne pytanie
-  </button>
-</ng-container>
+            <!-- Question input  -->
+            <div class="col-6">
+              <input  [(ngModel)]="chosenAnswer"
+                      type="radio"
+                      name="{{ question.question_group_name }}"
+                      value="{{ answer }}"
+                      id="answer_{{ i }}">
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+    <div class="row">
+      <ng-container>
+        <div class="col-3 mx-auto">
+          <button class="btn btn-info" type="button" (click)="onNextQuestion()">
+            Następne pytanie
+          </button>
+        </div>
+      </ng-container>
+  </div>
+</div>
