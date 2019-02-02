@@ -39,7 +39,7 @@ export class RulesEngineService {
         }
       }
     }
-  ]
+  ];
 
   constructor() {
     this.addRulesToEngine();
@@ -48,18 +48,18 @@ export class RulesEngineService {
   addRulesToEngine() {
     this.rules.forEach((rule) => {
       this.engine.addRule(rule);
-    })
+    });
   }
 
   runTheEngine(facts) {
-    let promise = new Promise((resolve, reject) => {
+    const promise = new Promise((resolve, reject) => {
       this.engine
       .run(facts)
-      .then(events => { 
+      .then(events => {
         resolve(events);
-      })
-    })
-    
+      });
+    });
+
     return promise;
   }
 }

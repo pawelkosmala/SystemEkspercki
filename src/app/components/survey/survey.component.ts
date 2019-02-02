@@ -36,8 +36,9 @@ export class SurveyComponent implements OnInit {
 
     if (this.activeQuestion >= this.questions.length) {
       this.rulesEngineService.runTheEngine(this.userAnswers).then((events) => {
-        for (let i in events) {
-          this.result.push(events[i].params.message)
+        // tslint:disable-next-line:forin
+        for (const i in events) {
+          this.result.push(events[i].params.message);
         }
       });
     }
