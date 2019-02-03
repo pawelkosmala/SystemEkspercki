@@ -1293,11 +1293,127 @@ export class RulesEngineService {
               });
               break;
             }
+            case 'kidsWifiVegan': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.wifi === 'Tak' &&
+                  restaurant.vegan === 'Tak' &&
+                  restaurant.kids === 'Tak');
+              });
+              break;
+            }
+            case 'kidsWifiParking': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.wifi === 'Tak' &&
+                  restaurant.parking === 'Tak' &&
+                  restaurant.kids === 'Tak');
+              });
+              break;
+            }
+            case 'kidsCashlessVegan': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.vegan === 'Tak' &&
+                  restaurant.cashless === 'Tak' &&
+                  restaurant.kids === 'Tak');
+              });
+              break;
+            }
+            case 'kidsCashlessParking': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.parking === 'Tak' &&
+                  restaurant.cashless === 'Tak' &&
+                  restaurant.kids === 'Tak');
+              });
+              break;
+            }
+            case 'kidsVeganParking': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.parking === 'Tak' &&
+                  restaurant.vegan === 'Tak' &&
+                  restaurant.kids === 'Tak');
+              });
+              break;
+            }
+            case 'wifiCashlessVegan': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.wifi === 'Tak' &&
+                  restaurant.vegan === 'Tak' &&
+                  restaurant.cashless === 'Tak');
+              });
+              break;
+            }
+            case 'wifiCashlessParking': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.wifi === 'Tak' &&
+                  restaurant.parking === 'Tak' &&
+                  restaurant.cashless === 'Tak');
+              });
+              break;
+            }
+            case 'wifiVeganParking': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.wifi === 'Tak' &&
+                  restaurant.parking === 'Tak' &&
+                  restaurant.vegan === 'Tak');
+              });
+              break;
+            }
+            case 'cashlessVeganParking': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.parking === 'Tak' &&
+                  restaurant.vegan === 'Tak' &&
+                  restaurant.cashless === 'Tak');
+              });
+              break;
+            }
+            case 'kidsWifiCashlessVegan': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.wifi === 'Tak' &&
+                  restaurant.vegan === 'Tak' &&
+                  restaurant.cashless === 'Tak' &&
+                  restaurant.kids === 'Tak');
+              });
+              break;
+            }
+            case 'kidsWifiCashlessParking': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.wifi === 'Tak' &&
+                  restaurant.parking === 'Tak' &&
+                  restaurant.cashless === 'Tak' &&
+                  restaurant.kids === 'Tak');
+              });
+              break;
+            }
+            case 'kidsCashlessVeganParking': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.parking === 'Tak' &&
+                  restaurant.vegan === 'Tak' &&
+                  restaurant.cashless === 'Tak' &&
+                  restaurant.kids === 'Tak');
+              });
+              break;
+            }
+            case 'kidsWifiVeganParking': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.wifi === 'Tak' &&
+                  restaurant.parking === 'Tak' &&
+                  restaurant.vegan === 'Tak' &&
+                  restaurant.kids === 'Tak');
+              });
+              break;
+            }
+            case 'wifiCashlessVeganParking': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.wifi === 'Tak' &&
+                  restaurant.parking === 'Tak' &&
+                  restaurant.vegan === 'Tak' &&
+                  restaurant.cashless === 'Tak');
+              });
+              break;
+            }
             default: {
               break;
             }
           }
-          console.log(restaurants);
           resolve({ events, restaurants });
         });
     });

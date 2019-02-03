@@ -1,9 +1,25 @@
 <ng-container *ngFor="let i of resultMessage">
     {{ resultMessage }}
 </ng-container>
-<ng-container *ngFor="let i of result">
-    {{ result }}
-</ng-container>
+
+<table class="mt-5 table table-striped table-responsive-md" *ngIf="result.length > 0">
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nazwa restauracji</th>
+      <th scope="col">Adres</th>
+      <th scope="col">Typ kuchni</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let restaurant of result; index as i">
+      <th scope="row">{{ i + 1 }}</th>
+      <td>{{ restaurant.name }}</td>
+      <td>{{ restaurant.address }}</td>
+      <td>{{ restaurant.kitchen }}</td>
+    </tr>
+    </tbody>
+  </table>
 
 <!--<button class="btn btn-primary" routerLink="">
     Start

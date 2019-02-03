@@ -32,12 +32,18 @@ export class SurveyComponent implements OnInit {
     this.activeQuestion += 1;
 
     if (this.activeQuestion >= this.questions.length) {
-      this.rulesEngineService.runTheEngine(this.userAnswers).then((events) => {
+      this.rulesEngineService.runTheEngine(this.userAnswers).then((result) => {
+
+        console.log(result);
         // tslint:disable-next-line:forin
-        console.log(events);
-        // for (const i in events) {
-        //   this.resultMessage.push(events[i].params.message);
-        // }
+        for (const i in result['events']) {
+          this.resultMessage.push(result['events'][i].params.message);
+        }
+
+        // tslint:disable-next-line:forin
+        for (const i in result['restaurants']) {
+          this.result.push(result['restaurants'][i]);
+        }
       });
     }
   }
