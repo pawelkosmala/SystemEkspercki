@@ -9,7 +9,7 @@ app.use(express.static('./dist/sysExpRes'));
 app.get('/', function(req,res) { 
     res.sendFile(path.join(__dirname, '/dist/sysExpRes/index.html'));
 });
-app.get('/survey', function(req,res) { 
+app.get('survey', function(req,res) { 
     res.sendFile(path.join(__dirname, '/dist/sysExpRes/index.html'));
 });
 
