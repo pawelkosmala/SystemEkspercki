@@ -15,7 +15,7 @@ import { RestaurantsService } from './services/restaurants.service';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'survey', component: SurveyComponent }
+  { path: '/survey', component: SurveyComponent }
 ];
 
 @NgModule({
