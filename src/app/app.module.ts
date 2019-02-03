@@ -11,6 +11,7 @@ import { ProgressBarComponent } from './components/progress-bar/progress-bar.com
 import { QuestionComponent } from './components/question/question.component';
 import { ResultComponent } from './components/result/result.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { RestaurantsService } from './services/restaurants.service';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -33,7 +34,7 @@ const routes: Routes = [
     FormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [RestaurantsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

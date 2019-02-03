@@ -9,11 +9,11 @@ export class RestaurantsService {
   {
     'name': 'Udon Noodle Bar',
     'address': 'ul. Marszałkowska 85',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Nie',
     'wifi': 'Nie',
     'vegan': 'Tak',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Nie',
     'kids': 'Tak',
     'price': '30'
@@ -21,13 +21,13 @@ export class RestaurantsService {
   {
     'name': 'Pho Lovers',
     'address': 'ul. Tamka 45a',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Nie',
     'mealType': [
-      'lunch',
-      'obiad'
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Nie',
     'kids': 'Nie',
@@ -36,14 +36,14 @@ export class RestaurantsService {
   {
     'name': 'Pera',
     'address': 'ul. Krakowska 248',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -52,11 +52,11 @@ export class RestaurantsService {
   {
     'name': 'Pho Ever Yum',
     'address': 'ul. Świętokrzyska 34',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Nie',
     'wifi': 'Nie',
     'vegan': 'Nie',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Nie',
     'kids': 'Nie',
     'price': '30'
@@ -64,13 +64,13 @@ export class RestaurantsService {
   {
     'name': 'Pani Onigiri',
     'address': 'al. Rzeczpospolitej 2A',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'śniadanie',
-      'lunch'
+      'Śniadanie',
+      'Lunch'
     ],
     'parking': 'Nie',
     'kids': 'Tak',
@@ -79,13 +79,13 @@ export class RestaurantsService {
   {
     'name': 'Skok na wok',
     'address': 'ul. Zawiszy 14',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Nie',
     'mealType': [
-      'lunch',
-      'obiad'
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Tak',
     'kids': 'Nie',
@@ -94,13 +94,13 @@ export class RestaurantsService {
   {
     'name': 'Mango Vegan Street Food',
     'address': 'ul. Dobra 52',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad'
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Nie',
     'kids': 'Nie',
@@ -109,11 +109,11 @@ export class RestaurantsService {
   {
     'name': 'Mao',
     'address': 'ul. Marszałkowska 62',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Tak',
     'kids': 'Tak',
     'price': '30'
@@ -121,11 +121,11 @@ export class RestaurantsService {
   {
     'name': 'Vietnamka',
     'address': 'ul. Poznańska 7',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Nie',
     'kids': 'Nie',
     'price': '30'
@@ -133,13 +133,13 @@ export class RestaurantsService {
   {
     'name': 'Shiso Noodle Bar',
     'address': 'pl. Żelaznej Bramy 1',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Nie',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad'
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Nie',
     'kids': 'Nie',
@@ -148,11 +148,11 @@ export class RestaurantsService {
   {
     'name': 'Bao Bao Pierogi na parze',
     'address': 'ul. Josepha Conrada 5',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Nie',
     'wifi': 'Tak',
     'vegan': 'Tak',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Tak',
     'kids': 'Tak',
     'price': '15'
@@ -160,11 +160,11 @@ export class RestaurantsService {
   {
     'name': 'Pan Bao',
     'address': 'ul. Żelazna 58/62',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Nie',
     'wifi': 'Tak',
     'vegan': 'Nie',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Nie',
     'kids': 'Nie',
     'price': '20'
@@ -172,11 +172,11 @@ export class RestaurantsService {
   {
     'name': 'Don Don',
     'address': 'ul. Pańska 59',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Nie',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Tak',
     'kids': 'Tak',
     'price': '30'
@@ -184,11 +184,11 @@ export class RestaurantsService {
   {
     'name': '5 składników',
     'address': 'ul. Narbutta 85',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Nie',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Nie',
     'kids': 'Nie',
     'price': '25'
@@ -196,13 +196,13 @@ export class RestaurantsService {
   {
     'name': 'Pho Kwadrat',
     'address': 'ul. Leszczyńska 3',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Nie',
     'mealType': [
-      'lunch',
-      'obiad'
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -211,14 +211,14 @@ export class RestaurantsService {
   {
     'name': 'Miss Kimchi',
     'address': 'ul. Żelazna 58/62',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -227,13 +227,13 @@ export class RestaurantsService {
   {
     'name': 'Yatta Ramen',
     'address': 'ul. Bartoszewicza 3',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad'
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Tak',
     'kids': 'Nie',
@@ -242,13 +242,13 @@ export class RestaurantsService {
   {
     'name': 'RABARBAR',
     'address': 'ul. Radna 12',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'śniadanie',
-      'lunch'
+      'Śniadanie',
+      'Lunch'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -257,14 +257,14 @@ export class RestaurantsService {
   {
     'name': 'Reginabar',
     'address': 'ul. Koszykowa 1',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'śniadanie',
-      'lunch',
-      'kolacja'
+      'Śniadanie',
+      'Lunch',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Tak',
@@ -273,14 +273,14 @@ export class RestaurantsService {
   {
     'name': 'Powidoki',
     'address': 'ul. Wybrzeże Kościuszkowskie 22',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Nie',
@@ -289,14 +289,14 @@ export class RestaurantsService {
   {
     'name': 'THAISTY',
     'address': 'pl. Bankowy 4',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Nie',
@@ -305,11 +305,11 @@ export class RestaurantsService {
   {
     'name': 'Vegan Ramen Shop',
     'address': 'ul. Finlandzka 12a',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
-    'mealType': ['obiad'],
+    'mealType': ['Obiad'],
     'parking': 'Tak',
     'kids': 'Nie',
     'price': '30'
@@ -317,13 +317,13 @@ export class RestaurantsService {
   {
     'name': 'The Cool Cat',
     'address': 'ul. Solec 38',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'śniadanie',
-      'lunch'
+      'Śniadanie',
+      'Lunch'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -332,14 +332,14 @@ export class RestaurantsService {
   {
     'name': 'Pumpui Thai Food',
     'address': 'ul. Dąbrowskiego 15a',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -348,13 +348,13 @@ export class RestaurantsService {
   {
     'name': 'Chef Panda',
     'address': 'ul. Konstruktorska 10c/u5',
-    'kitchen': 'azjatycka',
+    'kitchen': 'Azjatycka',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad'
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -363,11 +363,11 @@ export class RestaurantsService {
   {
     'name': 'Pyzy Flaki Gorące',
     'address': 'ul. Brzeska 29-31',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Nie',
-    'mealType': ['obiad'],
+    'mealType': ['Obiad'],
     'parking': 'Tak',
     'kids': 'Tak',
     'price': '20'
@@ -375,13 +375,13 @@ export class RestaurantsService {
   {
     'name': `Le'pię`,
     'address': 'ul.Topiel 12',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad'
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Nie',
     'kids': 'Nie',
@@ -390,14 +390,14 @@ export class RestaurantsService {
   {
     'name': 'Jaś i Małgosia',
     'address': 'al. Jana Pawła II 57',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -406,11 +406,11 @@ export class RestaurantsService {
   {
     'name': 'Schabowy',
     'address': 'ul. Obrzeźna 1',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
-    'mealType': ['obiad'],
+    'mealType': ['Obiad'],
     'parking': 'Tak',
     'kids': 'Nie',
     'price': '50'
@@ -418,13 +418,13 @@ export class RestaurantsService {
   {
     'name': 'Warszawa Wschodnia',
     'address': 'ul. Mińska 25',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'obiad',
-      'kolacja'
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Nie',
@@ -433,11 +433,11 @@ export class RestaurantsService {
   {
     'name': 'Kongresówka',
     'address': 'ul. Krucza 16/22',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Nie',
     'wifi': 'Nie',
     'vegan': 'Nie',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Nie',
     'kids': 'Nie',
     'price': '70'
@@ -445,11 +445,11 @@ export class RestaurantsService {
   {
     'name': 'Polny Bar Mleczny',
     'address': 'ul. Waryńskiego 3a',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Nie',
     'wifi': 'Nie',
     'vegan': 'Tak',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Tak',
     'kids': 'Tak',
     'price': '15'
@@ -457,11 +457,11 @@ export class RestaurantsService {
   {
     'name': 'Gruby Josek',
     'address': 'ul. Elektoralna 24',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Nie',
     'wifi': 'Tak',
     'vegan': 'Nie',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Nie',
     'kids': 'Tak',
     'price': '60'
@@ -469,13 +469,13 @@ export class RestaurantsService {
   {
     'name': 'Fork Restaurant',
     'address': 'ul. Wspólna 35',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Nie',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad'
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Tak',
     'kids': 'Nie',
@@ -484,14 +484,14 @@ export class RestaurantsService {
   {
     'name': 'Polana Smakó',
     'address': 'ul. Emilii Plater 14',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Nie',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -500,13 +500,13 @@ export class RestaurantsService {
   {
     'name': 'Opasły Tom',
     'address': 'ul. Wierzbowa 9',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Nie',
     'mealType': [
-      'obiad',
-      'kolacja'
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Nie',
@@ -515,13 +515,13 @@ export class RestaurantsService {
   {
     'name': 'Światło',
     'address': 'ul. Nowogrodzka 10',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'śniadanie',
-      'lunch'
+      'Śniadanie',
+      'Lunch'
     ],
     'parking': 'Tak',
     'kids': 'Nie',
@@ -530,13 +530,13 @@ export class RestaurantsService {
   {
     'name': 'Restauracja Warszawska',
     'address': 'pl. Powstańców Warszawy 9',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'obiad',
-      'kolacja'
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Nie',
@@ -545,11 +545,11 @@ export class RestaurantsService {
   {
     'name': 'Pasta Brother',
     'address': 'ul. Tamka 22/24',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Nie',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Nie',
     'kids': 'Nie',
     'price': '20'
@@ -557,11 +557,11 @@ export class RestaurantsService {
   {
     'name': 'Ferment Praski',
     'address': 'pl. Konesera 10a',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
-    'mealType': ['obiad'],
+    'mealType': ['Obiad'],
     'parking': 'Tak',
     'kids': 'Nie',
     'price': '40'
@@ -569,11 +569,11 @@ export class RestaurantsService {
   {
     'name': 'Bistro Po Sąsiedzku',
     'address': 'ul. Baleya 3',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Nie',
     'wifi': 'Nie',
     'vegan': 'Nie',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Nie',
     'kids': 'Nie',
     'price': '20'
@@ -581,11 +581,11 @@ export class RestaurantsService {
   {
     'name': 'Sypka Mąka i Masło',
     'address': 'ul. Rydygiera 13',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Nie',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Nie',
     'kids': 'Nie',
     'price': '30'
@@ -593,13 +593,13 @@ export class RestaurantsService {
   {
     'name': 'W Weku',
     'address': 'ul. Jana Kazimierza 47',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Nie',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'śniadanie',
-      'lunch'
+      'Śniadanie',
+      'Lunch'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -608,13 +608,13 @@ export class RestaurantsService {
   {
     'name': 'Bistro Magnat Catergin',
     'address': 'ul. Nowolipki 15',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'śniadanie',
-      'lunch'
+      'Śniadanie',
+      'Lunch'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -623,14 +623,14 @@ export class RestaurantsService {
   {
     'name': 'LAS - Lokalna Atrakcja Stolicy',
     'address': 'ul. Solec 44',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Nie',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Tak',
@@ -639,13 +639,13 @@ export class RestaurantsService {
   {
     'name': 'Letnisko',
     'address': 'ul. Patriotów 47',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad'
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -654,15 +654,15 @@ export class RestaurantsService {
   {
     'name': 'Restauracja ZONI',
     'address': 'pl. Konesera 1',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'śniadanie',
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Śniadanie',
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -671,11 +671,11 @@ export class RestaurantsService {
   {
     'name': 'Farszem Nadziane',
     'address': 'al. Jerozolimska 121/123',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Tak',
     'kids': 'Tak',
     'price': '15'
@@ -683,13 +683,13 @@ export class RestaurantsService {
   {
     'name': 'Future',
     'address': 'ul. Pokorna 2',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'śniadanie',
-      'lunch'
+      'Śniadanie',
+      'Lunch'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -698,13 +698,13 @@ export class RestaurantsService {
   {
     'name': 'The Bite',
     'address': 'ul. Ledóchowskiej 12',
-    'kitchen': 'polska',
+    'kitchen': 'Polska',
     'cashless': 'Tak',
     'wifi': 'Nie ',
     'vegan': 'Nie',
     'mealType': [
-      'śniadanie',
-      'lunch'
+      'Śniadanie',
+      'Lunch'
     ],
     'parking': 'Nie',
     'kids': 'Nie',
@@ -713,14 +713,14 @@ export class RestaurantsService {
   {
     'name': 'La Mia Italia',
     'address': 'ul. Domaniewska 31',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Nie',
     'wifi': 'Tak',
     'vegan': 'Nie',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -729,14 +729,14 @@ export class RestaurantsService {
   {
     'name': 'Semolino ristorante',
     'address': 'Woronicza 31',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Nie',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Nie',
@@ -745,14 +745,14 @@ export class RestaurantsService {
   {
     'name': 'Sexy Duck',
     'address': 'pl. Konstytucji 3',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -761,13 +761,13 @@ export class RestaurantsService {
   {
     'name': 'Figlia di Papa',
     'address': 'ul. Branickiego 21',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad'
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Nie',
     'kids': 'Nie',
@@ -776,13 +776,13 @@ export class RestaurantsService {
   {
     'name': 'Reginabar',
     'address': 'ul. Koszykowa 1',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'obiad',
-      'kolacja'
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -791,13 +791,13 @@ export class RestaurantsService {
   {
     'name': 'Ciao a Tutti',
     'address': 'al. Niepodległości 217',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad'
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Nie',
     'kids': 'Nie',
@@ -806,11 +806,11 @@ export class RestaurantsService {
   {
     'name': 'Mąka i Woda\n',
     'address': 'ul. Chmielna 13A',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Nie',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Tak',
     'kids': 'Tak',
     'price': '50'
@@ -818,11 +818,11 @@ export class RestaurantsService {
   {
     'name': 'Trattoria Rucola',
     'address': 'ul. Miodowa 1',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Nie',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Tak',
     'kids': 'Tak',
     'price': '80'
@@ -830,13 +830,13 @@ export class RestaurantsService {
   {
     'name': 'L’osteria dei Quattro Piatti',
     'address': 'ul. Stępińska 2',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Nie',
     'mealType': [
-      'lunch',
-      'obiad'
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Tak',
     'kids': 'Nie',
@@ -845,14 +845,14 @@ export class RestaurantsService {
   {
     'name': 'Bianco e Verde',
     'address': 'ul. Bobrowiecka 10',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Nie',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Tak',
@@ -861,13 +861,13 @@ export class RestaurantsService {
   {
     'name': 'Le Vele Seafood Pizzeria',
     'address': 'ul. Ludna 1',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad'
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -876,14 +876,14 @@ export class RestaurantsService {
   {
     'name': 'Przyjaciele Pizza & Food',
     'address': 'ul. Zamkowa 3',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Nie',
@@ -892,13 +892,13 @@ export class RestaurantsService {
   {
     'name': 'Spianatoia Pizza i Wino',
     'address': 'ul. Brylowska 2',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'kolacja'
+      'Lunch',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Nie',
@@ -907,11 +907,11 @@ export class RestaurantsService {
   {
     'name': 'Pasta Brother',
     'address': 'ul. Tamka 22/24',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Tak',
     'kids': 'Nie',
     'price': '50'
@@ -919,14 +919,14 @@ export class RestaurantsService {
   {
     'name': 'Pazzo Due',
     'address': 'al. Jana Pawła II 26',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'śniadanie',
-      'lunch',
-      'obiad'
+      'Śniadanie',
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Nie',
     'kids': 'Tak',
@@ -935,13 +935,13 @@ export class RestaurantsService {
   {
     'name': 'Pera',
     'address': 'al. Krakowska 248',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'kolacja'
+      'Lunch',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -950,14 +950,14 @@ export class RestaurantsService {
   {
     'name': 'Guravio',
     'address': 'ul. Żurawia 18',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
       'śniadnie',
-      'lunch',
-      'kolacja'
+      'Lunch',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -966,14 +966,14 @@ export class RestaurantsService {
   {
     'name': 'Prosciutteria Powiśle',
     'address': 'ul. Solec 85',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Tak',
@@ -982,13 +982,13 @@ export class RestaurantsService {
   {
     'name': 'Trattoria Bella Vista',
     'address': 'ul. Kaliny Jędrusik 5',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad'
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Tak',
     'kids': 'Nie',
@@ -997,14 +997,14 @@ export class RestaurantsService {
   {
     'name': 'Tutti Colori',
     'address': 'ul. Burakowska 15',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Nie',
@@ -1013,14 +1013,14 @@ export class RestaurantsService {
   {
     'name': 'Il Peperoncino',
     'address': 'ul. Szaserów 104',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Nie',
     'wifi': 'Tak',
     'vegan': 'Nie',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Tak',
@@ -1029,11 +1029,11 @@ export class RestaurantsService {
   {
     'name': 'Cantine I’italia',
     'address': 'ul. Puławska 73/75',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Nie',
     'wifi': 'Nie',
     'vegan': 'Tak',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Tak',
     'kids': 'Nie',
     'price': '70'
@@ -1041,14 +1041,14 @@ export class RestaurantsService {
   {
     'name': 'L’avanti',
     'address': 'ul. Grzybowska 5',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Nie',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -1057,11 +1057,11 @@ export class RestaurantsService {
   {
     'name': 'Pizza di Strada',
     'address': 'ul. Fredry 9',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Nie',
     'wifi': 'Nie',
     'vegan': 'Tak',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Nie',
     'kids': 'Nie',
     'price': '60'
@@ -1069,13 +1069,13 @@ export class RestaurantsService {
   {
     'name': 'Altro Locale',
     'address': 'ul. Willowa 9',
-    'kitchen': 'włoska',
+    'kitchen': 'Włoska',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad'
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -1084,13 +1084,13 @@ export class RestaurantsService {
   {
     'name': 'Roger that Foods',
     'address': 'ul. Postępu 5',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'obiad',
-      'kolacja'
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Tak',
@@ -1099,11 +1099,11 @@ export class RestaurantsService {
   {
     'name': 'Między Bułkami',
     'address': 'al. Jerozolimskie 23',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
-    'mealType': ['lunch'],
+    'mealType': ['Lunch'],
     'parking': 'Tak',
     'kids': 'Nie',
     'price': '50'
@@ -1111,11 +1111,11 @@ export class RestaurantsService {
   {
     'name': 'COCO BOWLS',
     'address': 'ul. Górnośląska 16',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
-    'mealType': ['śniadanie'],
+    'mealType': ['Śniadanie'],
     'parking': 'Tak',
     'kids': 'Tak',
     'price': '40'
@@ -1123,14 +1123,14 @@ export class RestaurantsService {
   {
     'name': 'Buena Vista Social Food',
     'address': 'ul. Koszykowa 63',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Tak',
@@ -1139,14 +1139,14 @@ export class RestaurantsService {
   {
     'name': 'Shuk',
     'address': 'ul. Grójecka 107',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Nie',
@@ -1155,13 +1155,13 @@ export class RestaurantsService {
   {
     'name': 'Semo Caffe',
     'address': 'ul. Konstruktorska 9',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Nie',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'śniadanie',
-      'lunch'
+      'Śniadanie',
+      'Lunch'
     ],
     'parking': 'Nie',
     'kids': 'Nie',
@@ -1170,14 +1170,14 @@ export class RestaurantsService {
   {
     'name': 'Pink Lobster',
     'address': 'ul. Żurawia 6/12',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Nie',
@@ -1186,11 +1186,11 @@ export class RestaurantsService {
   {
     'name': 'Bułkę przez Bibułkę',
     'address': 'ul. Puławska 24',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Nie',
     'wifi': 'Tak',
     'vegan': 'Tak',
-    'mealType': ['śniadanie'],
+    'mealType': ['Śniadanie'],
     'parking': 'Tak',
     'kids': 'Tak',
     'price': '50'
@@ -1198,14 +1198,14 @@ export class RestaurantsService {
   {
     'name': 'Shipudei Berek',
     'address': 'ul. Jasna 24',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Nie',
     'mealType': [
-      'śniadanie',
-      'lunch',
-      'obiad'
+      'Śniadanie',
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -1214,14 +1214,14 @@ export class RestaurantsService {
   {
     'name': 'The Cool Cat TR',
     'address': 'ul. Śródmieście 8',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Tak',
@@ -1230,13 +1230,13 @@ export class RestaurantsService {
   {
     'name': 'La Catrina',
     'address': 'ul. Francuska 31',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'kolacja'
+      'Lunch',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Tak',
@@ -1245,13 +1245,13 @@ export class RestaurantsService {
   {
     'name': 'Supperlardo',
     'address': 'ul. Chmielna 13A',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad'
+      'Lunch',
+      'Obiad'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -1260,14 +1260,14 @@ export class RestaurantsService {
   {
     'name': 'FALLA',
     'address': 'ul. Oboźna 9',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -1276,14 +1276,14 @@ export class RestaurantsService {
   {
     'name': 'Dos Tacos',
     'address': 'ul. Jasna 22',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Tak',
@@ -1292,11 +1292,11 @@ export class RestaurantsService {
   {
     'name': 'DESEO',
     'address': 'ul. Angorska 27',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
-    'mealType': ['kolacja'],
+    'mealType': ['Kolacja'],
     'parking': 'Tak',
     'kids': 'Tak',
     'price': '50'
@@ -1304,13 +1304,13 @@ export class RestaurantsService {
   {
     'name': 'El Czori',
     'address': 'al. Lotników 1',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Nie',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'kolacja'
+      'Lunch',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Nie',
@@ -1319,7 +1319,7 @@ export class RestaurantsService {
   {
     'name': 'Być Może',
     'address': 'ul Bagatela 14',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Nie',
     'wifi': 'Nie',
     'vegan': 'Tak',
@@ -1331,13 +1331,13 @@ export class RestaurantsService {
   {
     'name': 'KURA',
     'address': 'ul. Nowolipki 15',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'kolacja'
+      'Lunch',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -1346,13 +1346,13 @@ export class RestaurantsService {
   {
     'name': 'Coffeedesk',
     'address': 'ul Wilcza 42',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'kolacja'
+      'Lunch',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -1361,14 +1361,14 @@ export class RestaurantsService {
   {
     'name': 'KUMIN',
     'address': 'ul. Belwederska 17',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Nie',
@@ -1377,13 +1377,13 @@ export class RestaurantsService {
   {
     'name': 'Krem',
     'address': 'ul. Śniadeckich 18',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Nie',
     'mealType': [
-      'śniadanie',
-      'lunch'
+      'Śniadanie',
+      'Lunch'
     ],
     'parking': 'Tak',
     'kids': 'Tak',
@@ -1392,14 +1392,14 @@ export class RestaurantsService {
   {
     'name': 'Wół na Stół',
     'address': 'al. KEN 52',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Tak',
@@ -1408,14 +1408,14 @@ export class RestaurantsService {
   {
     'name': 'Burger Bar',
     'address': 'ul. Puławska 74/80',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Tak',
     'kids': 'Nie',
@@ -1424,14 +1424,14 @@ export class RestaurantsService {
   {
     'name': 'Barn Burger',
     'address': 'ul. Złota 9',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Nie',
     'wifi': 'Tak',
     'vegan': 'Tak',
     'mealType': [
-      'lunch',
-      'obiad',
-      'kolacja'
+      'Lunch',
+      'Obiad',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Nie',
@@ -1440,13 +1440,13 @@ export class RestaurantsService {
   {
     'name': 'Big Adriano',
     'address': 'ul. Dzieci Warszawy 27a',
-    'kitchen': 'inna',
+    'kitchen': 'Inna',
     'cashless': 'Tak',
     'wifi': 'Nie',
     'vegan': 'Nie',
     'mealType': [
-      'lunch',
-      'kolacja'
+      'Lunch',
+      'Kolacja'
     ],
     'parking': 'Nie',
     'kids': 'Nie',
@@ -1459,6 +1459,7 @@ export class RestaurantsService {
   filterByKitchenPriceMeal(kitchen, price, meal) {
     const result = this.restaurantList.filter((restaurant) => {
       if (restaurant.kitchen === kitchen) {
+        // tslint:disable-next-line:forin
         for (const i in restaurant.mealType) {
           if (restaurant.mealType[i] === meal) {
             if (restaurant.price < price) {
