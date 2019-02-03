@@ -1,37 +1,39 @@
-<div class="col-6 mx-auto">
+<div class="col-6 mx-auto mt-3">
   <div class="row">
-      <div class="col-12 mx-auto mb-2 text-center">
-        <span class="h2">{{ question.question }}</span>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-6 mx-auto">
-        <ng-container *ngFor="let answer of question.answers, index as i">
-          <div class="row">
-            <!-- Question text -->
-            <div class="col-6 text-center">
-              <label for="answer_{{ i }}">{{ answer }}</label>
-            </div>
-
-            <!-- Question input  -->
-            <div class="col-6">
-              <input  [(ngModel)]="chosenAnswer"
-                      type="radio"
-                      name="{{ question.question_group_name }}"
-                      value="{{ answer }}"
-                      id="answer_{{ i }}">
-            </div>
+    <div class="card col-12">
+      <div class="row card-header">
+          <div class="col-12 mx-auto mb-2 text-center">
+            <span class="h2">{{ question.question }}</span>
           </div>
-        </ng-container>
+        </div>
+        <div class="row card-body">
+          <div class="col-12 mx-auto">
+            <ng-container *ngFor="let answer of question.answers, index as i">
+              <div class="row">
+                <!-- Question text -->
+                <div class="col-6 text-right">
+                  <label for="answer_{{ i }}">{{ answer }}</label>
+                </div>
+
+                <!-- Question input  -->
+                <div class="col-6">
+                  <input  [(ngModel)]="chosenAnswer"
+                          type="radio"
+                          name="{{ question.question_group_name }}"
+                          value="{{ answer }}"
+                          id="answer_{{ i }}">
+                </div>
+              </div>
+            </ng-container>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row mt-3">
       <ng-container>
-        <div class="col-3 mx-auto">
-          <button class="btn btn-info" type="button" (click)="onNextQuestion()" [disabled]="!chosenAnswer">
+          <button class="btn btn-info d-block mx-auto" style="width: 200px" type="button" (click)="onNextQuestion()" [disabled]="!chosenAnswer">
             Następne pytanie
           </button>
-        </div>
       </ng-container>
   </div>
 </div>
