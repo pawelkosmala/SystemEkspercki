@@ -28,7 +28,7 @@
     <div class="row">
       <ng-container>
         <div class="col-3 mx-auto">
-          <button class="btn btn-info" type="button" (click)="onNextQuestion()">
+          <button class="btn btn-info" type="button" (click)="onNextQuestion()" [disabled]="!chosenAnswer">
             Następne pytanie
           </button>
         </div>
