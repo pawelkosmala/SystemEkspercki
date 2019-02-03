@@ -12,11 +12,7 @@ export class SurveyComponent implements OnInit {
 
   public questions: Array<any>;
   public activeQuestion: any;
-  public userAnswers: any = {
-    kitchen: '',
-    parking: '',
-
-  };
+  public userAnswers: any = { };
   public questionsLength: any;
   public result: any = [];
   public resultMessage: any = [];
@@ -38,9 +34,10 @@ export class SurveyComponent implements OnInit {
     if (this.activeQuestion >= this.questions.length) {
       this.rulesEngineService.runTheEngine(this.userAnswers).then((events) => {
         // tslint:disable-next-line:forin
-        for (const i in events) {
-          this.resultMessage.push(events[i].params.message);
-        }
+        console.log(events);
+        // for (const i in events) {
+        //   this.resultMessage.push(events[i].params.message);
+        // }
       });
     }
   }

@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Engine } from 'json-rules-engine';
+import { RestaurantsService } from './restaurants.service';
 
 @Injectable({
   providedIn: 'root'
@@ -1132,7 +1133,7 @@ export class RulesEngineService {
   },
   ];
 
-  constructor() {
+  constructor(public restaurantsService: RestaurantsService) {
     this.addRulesToEngine();
   }
 
@@ -1147,11 +1148,157 @@ export class RulesEngineService {
       this.engine
         .run(facts)
         .then(events => {
-          // TODO:
-          // Tutaj zapuszczenie filtrów w zależności od events[i].type
-          // I zwrócenie ich razem z events
-          console.log(events);
-          resolve(events);
+          let price;
+
+          switch (facts.price) {
+            case '10-20 zł': {
+              price = 20;
+              break;
+            }
+            case '20-50 zł': {
+              price = 50;
+              break;
+            }
+            case '50-100 zł': {
+              price = 100;
+              break;
+            }
+            default: {
+              price = 1000;
+              break;
+            }
+          }
+
+          let restaurants = this.restaurantsService.filterByKitchenPriceMeal(facts.kitchen, price, facts.mealType);
+
+          switch (events[0].type) {
+            case 'all': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.wifi === 'Tak' &&
+                  restaurant.parking === 'Tak' &&
+                  restaurant.vegan === 'Tak' &&
+                  restaurant.cashless === 'Tak' &&
+                  restaurant.kids === 'Tak');
+              });
+              break;
+            }
+            case 'nothing': {
+              break;
+            }
+            case 'kids': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.kids === 'Tak');
+              });
+              break;
+            }
+            case 'wifi': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.wifi === 'Tak');
+              });
+              break;
+            }
+            case 'cashless': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.cashless === 'Tak');
+              });
+              break;
+            }
+            case 'vegan': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.vegan === 'Tak');
+              });
+              break;
+            }
+            case 'parking': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.parking === 'Tak');
+              });
+              break;
+            }
+            case 'kidsWifi': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.wifi === 'Tak' &&
+                  restaurant.kids === 'Tak');
+              });
+              break;
+            }
+            case 'kidsCashless': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.cashless === 'Tak' &&
+                  restaurant.kids === 'Tak');
+              });
+              break;
+            }
+            case 'kidsVegan': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.vegan === 'Tak' &&
+                  restaurant.kids === 'Tak');
+              });
+              break;
+            }
+            case 'kidsParking': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.parking === 'Tak' &&
+                  restaurant.kids === 'Tak');
+              });
+              break;
+            }
+            case 'wifiCashless': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.wifi === 'Tak' &&
+                  restaurant.cashless === 'Tak');
+              });
+              break;
+            }
+            case 'wifiVegan': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.wifi === 'Tak' &&
+                  restaurant.vegan === 'Tak');
+              });
+              break;
+            }
+            case 'wifiParking': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.wifi === 'Tak' &&
+                  restaurant.parking === 'Tak');
+              });
+              break;
+            }
+            case 'cashlessVegan': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.vegan === 'Tak' &&
+                  restaurant.cashless === 'Tak');
+              });
+              break;
+            }
+            case 'cashlessParking': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.parking === 'Tak' &&
+                  restaurant.cashless === 'Tak');
+              });
+              break;
+            }
+            case 'veganParking': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.parking === 'Tak' &&
+                  restaurant.vegan === 'Tak');
+              });
+              break;
+            }
+            case 'kidsWifiCashless': {
+              restaurants = restaurants.filter((restaurant) => {
+                return (restaurant.wifi === 'Tak' &&
+                  restaurant.cashless === 'Tak' &&
+                  restaurant.kids === 'Tak');
+              });
+              break;
+            }
+            default: {
+              break;
+            }
+          }
+          console.log(restaurants);
+          resolve({ events, restaurants });
         });
     });
 

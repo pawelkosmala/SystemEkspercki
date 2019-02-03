@@ -1455,4 +1455,22 @@ export class RestaurantsService {
 ];
 
   constructor() { }
+
+  filterByKitchenPriceMeal(kitchen, price, meal) {
+    const result = this.restaurantList.filter((restaurant) => {
+      if (restaurant.kitchen === kitchen) {
+        for (const i in restaurant.mealType) {
+          if (restaurant.mealType[i] === meal) {
+            if (restaurant.price < price) {
+              return true;
+            }
+          }
+        }
+      }
+
+      return false;
+    });
+
+    return result;
+  }
 }
